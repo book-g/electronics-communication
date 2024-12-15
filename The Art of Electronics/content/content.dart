@@ -541,7 +541,159 @@ var the_art_of_the_electronics = {
         {"Review of Chapter 7": []},
       ]
     },
-    {"8. Low-Noise Techniques": []},
+    {
+      "8. Low-Noise Techniques": [
+        {
+          "1. Noise": [
+            {"1. Johnson (Nyquist) noise": []},
+            {"2. Shot noise": []},
+            {"3. 1 *If* noise (flicker noise)": []},
+            {"4. Burst noise": []},
+            {"5. Band-limited noise": []},
+            {"6. Interference": []},
+          ]
+        },
+        {
+          "2. Signal-to-noise ratio and noise figure": [
+            {"1. Noise power density and bandwidth": []},
+            {"2. Signal-to-noise ratio": []},
+            {"3. Noise figure": []},
+            {"4. Noise temperature": []},
+          ]
+        },
+        {
+          "3. Bipolar transistor amplifier noise": [
+            {"1. Voltage noise, eₙ": []},
+            {"2. Current noise, iₙ": []},
+            {"3. BJT voltage noise, revisited": []},
+            {"4. A simple design example: loudspeaker as microphone": []},
+            {"5. Shot noise in current sources and emitter followers": []},
+          ]
+        },
+        {
+          "4. Finding eₙ from noise-figure specifications": [
+            {"1. Step 1: NF versus Ic": []},
+            {"2. Step 2: NF versus Rₛ": []},
+            {"3. Step 3: getting to eₙ": []},
+            {"4. Step 4: the spectrum of eₙ": []},
+            {"5. The spectrum of *iₙ*": []},
+            {"6. When operating current is not you choice": []},
+          ]
+        },
+        {
+          "5. Low-noise design with bipolar transistors": [
+            {"1. Noise-figure example": []},
+            {"2. Charting amplifier noise with eₙ and iₙ": []},
+            {"3. Noise resistance": []},
+            {"4. Charting comparative noise": []},
+            {"5. Low-noise design with BJTs: two examples": []},
+            {"6. Minimizing noise: BJTs, FETs, and transformers": []},
+            {"7. A design example: 40¢ 'lighting detector' preamp": []},
+            {"8. Selecting a low-noise bipolar transistor": []},
+            {"9. An extreme low-noise design challenge": []},
+          ]
+        },
+        {
+          "6. Low-noise design with JFETS": [
+            {"1. Voltage noise of JFETs": []},
+            {"2. Current noise of JFETs": []},
+            {
+              "3. Design example: low-noise wideband JFET 'hybrid' amplifiers":
+                  []
+            },
+            {"4. Designs by the masters: SR560 low-noise amplifiers": []},
+            {"5. Selecting low-noise JFETS": []},
+          ]
+        },
+        {
+          "7. Charting the bipolar-FET shootout": [
+            {"1. What about MOSFETs?": []},
+          ]
+        },
+        {"8. Noise in differential and feedback amplifiers": []},
+        {
+          "9. Noise in operational amplifier circuits": [
+            {"1. Guide to Table 8.3: choosing low-noise op-amps": []},
+            {"2. Power-supply rejection ratio": []},
+            {"3. Wrapup: choosing a low-noise op-amp": []},
+            {
+              "4. Low-noise instrumentation amplifiers and video amplifiers": []
+            },
+            {"5. Low-noise hybrid op-amps": []},
+          ]
+        },
+        {
+          "10. Signal transformers": [
+            {"1. A low-noise wideband amplifier with transformer feedback": []},
+          ]
+        },
+        {
+          "11. Noise in transimpedance amplifiers": [
+            {"1. Summary of the stability problem": []},
+            {"2. Amplifier input noise": []},
+            {"3. The eₙC noise problem": []},
+            {"4. Noise in the transresistance amplifier": []},
+            {"5. An example: wideband JFET photodiode amplifier": []},
+            {"6. Noise versus gain in the transimpedance amplifier": []},
+            {
+              "7. Output bandwidth limiting in the transimpedance amplifier": []
+            },
+            {"8. Composite transimpedance amplifiers": []},
+            {
+              "9. Reducing input capacitance: bootstrapping the transimpedance amplifier":
+                  []
+            },
+            {
+              "10. Isolating input capacitance: cascoding the transimpedance amplifier":
+                  []
+            },
+            {"11. Transimpedance amplifiers with capacitive feedback": []},
+            {"12. Scanning tunneling microscope preamplifier": []},
+            {"13. Test fixture for compensation and calibration": []},
+            {"14. A final remark": []},
+          ]
+        },
+        {
+          "12. Noise measurements and noise sources": [
+            {"1. Measurement without a noise source": []},
+            {"2. An example: transistor-noise test circuit": []},
+            {"3. Measurement with a noise source": []},
+            {"4. Noise and signal sources": []},
+          ]
+        },
+        {
+          "13. Bandwidth limiting and rms voltage measurement": [
+            {"1. Limiting the bandwidth": []},
+            {"2. Calculating the integrated noise": []},
+            {"3. Op-amp 'low-frequency noise' with asymmetric filter": []},
+            {"4. Finding the 1/f corner frequency": []},
+            {"5. Measuring the noise voltage": []},
+            {"6. Measuring the noise current": []},
+            {"7. Another way: roll-your-own fA/√Hz instrument": []},
+            {"8. Noise potpourri": []},
+          ]
+        },
+        {
+          "14. Signal-to-noise improvement by bandwidth narrowing": [
+            {"1. Lock-in detection": []},
+          ]
+        },
+        {
+          "15. Power-supply noise": [
+            {"1. Capacitance multiplier": []},
+          ]
+        },
+        {
+          "16. Interference, shielding, and grounding": [
+            {"1. Interfering signals": []},
+            {"2. Signal grounds": []},
+            {"3. Grounding between instruments": []},
+          ]
+        },
+        {"Additional Exercises for Chapter 8": []},
+        {"Review of Chapter 8": []},
+      ]
+    },
     {"9. Voltage Regulation and Power Conversion": []},
     {"10. Digital Logic": []},
     {"11. Programmable Logic Devices": []},
