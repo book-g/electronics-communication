@@ -481,8 +481,66 @@ var the_art_of_the_electronics = {
         },
       ]
     },
-    {"6. Filters": []},
-    {"7. Oscillators and Timers": []},
+    {
+      "6. Filters": [
+        {"1. Introduction": []},
+        {
+          "2. Passive filters": [
+            {"1. Frequency response with RC filters": []},
+            {"2. Ideal performance with *LC* filters": []},
+            {"3. Several simple examples": []},
+            {"4. Enter active filters: an overview": []},
+            {"5. Key filter performance criteria": []},
+            {"6. Filter types": []},
+            {"7. Filter implementation": []},
+          ]
+        },
+        {
+          "3. Active-filter circuits": [
+            {"1. VCVS circuits": []},
+            {"2. VCVS filter design using our simplified table": []},
+            {"3. State-variable filters": []},
+            {"4. Twin-T notch filters": []},
+            {"5. Allpass filters": []},
+            {"6. Switched-capacitor filterss": []},
+            {"7. Digital signal processing": []},
+            {"8. Filter miscellany": []},
+          ]
+        },
+        {"Additional Exercises for Chapter 6": []},
+        {"Review of Chapter 6": []},
+      ]
+    },
+    {
+      "7. Oscillators and Timers": [
+        {
+          "1. Oscillators": [
+            {"1. Introduction to oscillators": []},
+            {"2. Relaxation oscillators": []},
+            {"3. The classic oscillator-timer chip the 555": []},
+            {"4. Other relaxation-oscillator ICs": []},
+            {"5. Sinewave oscillators": []},
+            {"6. Quartz-crystal oscillators": []},
+            {"7. Higher stability: TCXO, OCXO, and beyond": []},
+            {"8. Frequency synthesis: DDS and PLL": []},
+            {"9. Quadrature oscillators": []},
+            {"10. Oscillator 'jitter'": []},
+          ]
+        },
+        {
+          "2. Timers": [
+            {"1. Step-triggered pulses": []},
+            {"2. Monostable multivibrators": []},
+            {
+              "3. A monostable application: limiting pulse width and duty cycle":
+                  []
+            },
+            {"4. Timing with digital counters": []},
+          ]
+        },
+        {"Review of Chapter 7": []},
+      ]
+    },
     {"8. Low-Noise Techniques": []},
     {"9. Voltage Regulation and Power Conversion": []},
     {"10. Digital Logic": []},
