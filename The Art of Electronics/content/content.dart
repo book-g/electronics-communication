@@ -118,9 +118,75 @@ var the_art_of_the_electronics = {
             {"1. Surface-mount technology: the joy and the pains": []}
           ]
         },
+        {"Additional Exercises for Chapter 1": []},
+        {"Review of Chapter 1": []}
       ]
     },
-    {"2. Bipolar Transistors": []},
+    {
+      "2. Bipolar Transistors": [
+        {
+          "1. Introduction": [
+            {"1. First transistor model: current amplifier": []}
+          ]
+        },
+        {
+          "2. Some basic transistor circuits": [
+            {"1. Transistor switch": []},
+            {"2. Switching circuit examples": []},
+            {"3. Emitter follower": []},
+            {"4. Emitter followers as voltage regulators": []},
+            {"5. Emitter follower biasing": []},
+            {"6. Current source": []},
+            {"7. Common-emitter amplifier": []},
+            {"8. Unity-gain phase splitter": []},
+            {"9. Transconductance": []},
+          ]
+        },
+        {
+          "3. Ebers-Moll model applied to basic transistor circuits": [
+            {"1. Improved transistor model: transconductance amplifier": []},
+            {
+              "2. Consequences of the Ebers-Moll model : rules of thumb for transistor design":
+                  []
+            },
+            {"3. The emitter follower revisited": []},
+            {"4. The common-emitter amplifier revisited": []},
+            {"5. Biasing the common-emitter amplifier": []},
+            {"6. An aside: the perfect transistor": []},
+            {"7. Current mirrors": []},
+            {"8. Differential amplifiers": []},
+          ]
+        },
+        {
+          "4. Some amplifier building blocks": [
+            {"1. Push-pull output stages": []},
+            {"2. Darlington connection": []},
+            {"3. Bootstrapping": []},
+            {"4. Current sharing in paralleled BJTs": []},
+            {"5. Capacitance and Miller effect": []},
+            {"6. Field-effect transistors": []},
+          ]
+        },
+        {
+          "5. Negative feedback": [
+            {"1. Introduction to feedback": []},
+            {"2. Gain equation": []},
+            {"3. Effects of feedback on amplifier circuits": []},
+            {"4. Two important details": []},
+            {"5. Two examples of transistor amplifiers with feedback": []},
+          ]
+        },
+        {
+          "6. Some typical transistor circuits": [
+            {"1. Regulated power supply": []},
+            {"2. Temperature controller": []},
+            {"3. Simple logic with transistors and diodes": []},
+          ]
+        },
+        {"Additional Exercises for Chapter 2": []},
+        {"Review of Chapter 2": []}
+      ]
+    },
     {"3. Field-Effect Transistors": []},
     {"4. Operational Amplifiers": []},
     {"5. Precision Circuits": []},
