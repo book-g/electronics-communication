@@ -187,8 +187,153 @@ var the_art_of_the_electronics = {
         {"Review of Chapter 2": []}
       ]
     },
-    {"3. Field-Effect Transistors": []},
-    {"4. Operational Amplifiers": []},
+    {
+      "3. Field-Effect Transistors": [
+        {
+          "1. Introduction": [
+            {"1. FET characteristics": []},
+            {"2. FET types": []},
+            {"3. Universal FET characteristics": []},
+            {"4. FET drain characteristics": []},
+            {"5. Manufacturing spread of FET characteristics": []},
+            {"6. Basic FET circuitss": []},
+          ]
+        },
+        {
+          "2. FET linear circuits": [
+            {"1. Some representative JFETs: a brief tour": []},
+            {"2. JFET current sources": []},
+            {"3. FET amplifiers": []},
+            {"4. Differential amplifiers": []},
+            {"5. Oscillators": []},
+            {"6. Source followers": []},
+            {"7. FETs as variable resistors": []},
+            {"8. FET gate current": []},
+          ]
+        },
+        {
+          "3. A closer look at JFETs": [
+            {"1. Drain current versus gate voltage": []},
+            {
+              "2. Drain current versus drain-source voltage: output conductance":
+                  []
+            },
+            {"3. Transconductance versus drain current": []},
+            {"4. Transconductance versus drain voltage": []},
+            {"5. JFET capacitance": []},
+            {"6. Why JFET (versus MOSFET) amplifiers?": []},
+          ]
+        },
+        {
+          "4. FET switches": [
+            {"1. FET analog switches": []},
+            {"2. Limitations of FET switches": []},
+            {"3. Some FET analog switch examples": []},
+            {"4. MOSFET logic switches": []},
+          ]
+        },
+        {
+          "5. Power MOSFETs": [
+            {"1. High impedance, thermal stability": []},
+            {"2. Power MOSFET switching parameters": []},
+            {"3. Power switching from logic levels": []},
+            {"4. Power switching cautions": []},
+            {"5. MOSFETs versus BJTs as high-current switches": []},
+            {"6. Some power MOSFET circuit examples": []},
+            {"7. IGBTs and other power semiconductors": []},
+          ]
+        },
+        {
+          "6. MOSFETs in linear applications": [
+            {"1. High-voltage piezo amplifier": []},
+            {"2. Some depletion-mode circuits": []},
+            {"3. Paralleling MOSFETs": []},
+            {"4. Thermal runaway": []},
+          ]
+        },
+        {"Review of Chapter 3": []}
+      ]
+    },
+    {
+      "4. Operational Amplifiers": [
+        {
+          "1. Introduction to op-omps : the 'perfect component' ": [
+            {"1. Feedback and op-amps": []},
+            {"2. Operational amplifiers": []},
+            {"3. The golden rules": []},
+          ]
+        },
+        {
+          "2. Basic op-amp circuits": [
+            {"1. Inverting amplifier": []},
+            {"2. Noninverting amplifier": []},
+            {"3. Follower": []},
+            {"4. Difference amplifier": []},
+            {"5. Current sources": []},
+            {"6. Integrators": []},
+            {"7. Basic cautions for op-amp circuits": []},
+          ]
+        },
+        {
+          "3. An op-amp smorgasbord": [
+            {"1. Linear circuits": []},
+            {"2. Nonlinear circuits": []},
+            {"3. Op-amp application: triangle-wave oscillator": []},
+            {"4. Op-amp application: pinch-off voltage tester": []},
+            {"5. Programmable pulse-width generator": []},
+            {"6. Active lowpass filter": []},
+          ]
+        },
+        {
+          "4. A detailed look at op-amp behavior": [
+            {"1. Departure from ideal op-amp performance": []},
+            {"2. Effects of op-amp limitations on circuit behavior": []},
+            {"3. Example: sensitive millivoltmeter": []},
+            {"4. Bandwidth and the op-amp current source": []},
+          ]
+        },
+        {
+          "5. A detailed look at selected op-amp circuits": [
+            {"1. Active peak detector": []},
+            {"2. Sample-and-hold": []},
+            {"3. Active clamp": []},
+            {"4. Absolute-value circuit": []},
+            {"5. A closer look at the integrator": []},
+            {"6. A circuit cure for FET leakage": []},
+            {"7. Differentiators": []},
+          ]
+        },
+        {
+          "6. Op-amp operation with a single power supply": [
+            {"1. Biasing single-supply ac amplifiers": []},
+            {"2. Capacitive loads": []},
+            {"3. 'Single-supply' op-amps": []},
+            {"4. Example: voltage-controlled oscillator": []},
+            {"5. VCO implementation: through-hole versus surface-mount": []},
+            {"6. Zero-crossing detector": []},
+            {"7. An op-amp table": []},
+          ]
+        },
+        {"7. Other amplifiers and op-amp types": []},
+        {
+          "8. Some typical op-amp circuits": [
+            {"1. General-purpose lab amplifier": []},
+            {"2. Stuck-node tracer": []},
+            {"3. Load-current-sensing circuit": []},
+            {"4. Integrating suntan monitor": []},
+          ]
+        },
+        {
+          "9. Feedback amplifier frequency compensation": [
+            {"1. Gain and phase shift versus frequency": []},
+            {"2. Amplifier compensation methods": []},
+            {"3. Frequency response of the feedback network": []},
+          ]
+        },
+        {"Additional Exercises for Chapter 4": []},
+        {"Review of Chapter 4": []},
+      ]
+    },
     {"5. Precision Circuits": []},
     {"6. Filters": []},
     {"7. Oscillators and Timers": []},
