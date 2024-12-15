@@ -334,7 +334,153 @@ var the_art_of_the_electronics = {
         {"Review of Chapter 4": []},
       ]
     },
-    {"5. Precision Circuits": []},
+    {
+      "5. Precision Circuits": [
+        {
+          "1. Precision op-amp design techniques": [
+            {"1. Precision versus dynamic range": []},
+            {"2. Error budget": []},
+          ]
+        },
+        {
+          "2. An example: the millivoltmeter, revisited": [
+            {"1. The challenge: 10mV, 1%, 10 MΩ, 1.8 V single supply": []},
+            {"2. The solution: precision RRIO current source": []},
+          ]
+        },
+        {"3. The lessons: error budget, unspecified parameters": []},
+        {
+          "4. Another example: precision amplifier with null offset": [
+            {"1. Circuit description": []},
+          ]
+        },
+        {
+          "5. A precision-design error budget": [
+            {"1. Error budget": []},
+          ]
+        },
+        {
+          "6. Component errors": [
+            {"1. Gain-setting resistors": []},
+            {"2. The holding capacitor": []},
+            {"3. Nulling switch": []},
+          ]
+        },
+        {
+          "7. Amplifier input errors": [
+            {"1. Input impedance": []},
+            {"2. Input bias current": []},
+            {"3. Voltage offset": []},
+            {"4. Common-mode rejection": []},
+            {"5. Power-supply rejection": []},
+            {"6. Nulling amplifier: input errors": []},
+          ]
+        },
+        {
+          "8. Amplifier output errors": [
+            {"1. Slew rate: general considerations": []},
+            {"2. Bandwidth and settling time": []},
+            {"3. Crossover distortion and output impedance": []},
+            {"4. Unity-gain power buffers": []},
+            {"5. Gain error": []},
+            {"6. Gain nonlinearity": []},
+            {"7. Phase error and 'active compensation'": []},
+          ]
+        },
+        {
+          "9. RRIO op-amps: the good, the bad, and the ugly": [
+            {"1. Input issues": []},
+            {"2. Output issues": []},
+          ]
+        },
+        {
+          "10. Choosing a precision op-amp": [
+            {"1. 'Seven precision op-amps'": []},
+            {"2. Number per package": []},
+            {"3. Supply voltage, signal range": []},
+            {"4. Single-supply operation": []},
+            {"5. Offset voltage": []},
+            {"6. Voltage noise": []},
+            {"7. Bias current": []},
+            {"8. Current noise": []},
+            {"9. CMRR and PSRR": []},
+            {"10. GBW, fₜ , slew rate and '*m*,' and settling time": []},
+            {"11. Distortion": []},
+            {
+              "12. 'Two out of three isn't bad' : creating a perfect op-amp": []
+            },
+          ]
+        },
+        {
+          "11. Auto-zeroing (chopper-stabilized) amplifiers": [
+            {"1. Auto-zero op-amp properties": []},
+            {"2. When to use auto-zero op-amps": []},
+            {"3. Selecting an auto-zero op-amp": []},
+            {"4. Auto-zero miscellany": []},
+          ]
+        },
+        {
+          "12. Designs by the masters: Agilent's accurate DMMs": [
+            {"1. It's *impossible*!": []},
+            {"2. Wrong - it *is* possible!": []},
+            {"3. Block diagram: a simple plan": []},
+            {"4. The 34401A 6.5-digit front end": []},
+            {"5. The 34420A 7.5-digit frontend": []},
+          ]
+        },
+        {
+          "13. Difference, differential, and instrumentation amplifiers: introduction":
+              []
+        },
+        {
+          "14. Difference amplifier": [
+            {"1. Basic circuit operation": []},
+            {"2. Some applications": []},
+            {"3. Performance parameters": []},
+            {"4. Circuit variations": []},
+          ]
+        },
+        {
+          "15. Instrumentation amplifier": [
+            {"1. A first (but naive) guess": []},
+            {"2. Classic three-op-amp instrumentation amplifier": []},
+            {"3. Input-stage considerations": []},
+            {"4. A 'roll-your-own' instrumentation amplifier": []},
+            {"5. A riff on robust input protection": []},
+          ]
+        },
+        {
+          "16. Instrumentation amplifier miscellany": [
+            {"1. Input current and noise": []},
+            {"2. Common-mode rejection": []},
+            {"3. Source impedance and CMRR": []},
+            {"4. EMI and input protection": []},
+            {"5. Offset and CMRR trimming": []},
+            {"6. Sensing at the load": []},
+            {"7. Input bias path": []},
+            {"8. Output voltage range": []},
+            {"9. Application example: current source": []},
+            {"10. Other configurations": []},
+            {"11. Chopper and auto-zero instrumentation amplifiers": []},
+            {"12. Programmable gain instrumentation amplifiers": []},
+            {"13. Generating a differential output": []},
+          ]
+        },
+        {
+          "17. Fully differential amplifiers": [
+            {"1. Differential amplifiers: basic concepts": []},
+            {
+              "2. Differential amplifier application example: wideband analog link":
+                  []
+            },
+            {"3. Differential-input ADCs": []},
+            {"4. Impedance matching": []},
+            {"5. Differential amplifier selection criteria": []},
+            {"Review of Chapter 5": []},
+          ]
+        },
+      ]
+    },
     {"6. Filters": []},
     {"7. Oscillators and Timers": []},
     {"8. Low-Noise Techniques": []},
