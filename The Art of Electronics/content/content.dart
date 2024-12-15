@@ -1,3 +1,5 @@
+import 'publication.dart';
+
 var the_art_of_the_electronics = {
   "The Art Of Electronics": [
     {
@@ -20,6 +22,7 @@ var the_art_of_the_electronics = {
         {"image": "//book_cover_image//"}
       ]
     },
+    {"publication": art_of_the_electronic_publication},
     {"List of Tables": []},
     {"Preface to the First Edition": []},
     {"Preface to the Second Edition": []},
