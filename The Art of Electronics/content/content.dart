@@ -40,16 +40,80 @@ var the_art_of_the_electronics = {
             }
           ]
         },
-        {"3. Signals": []},
-        {"4. Capacitors and ac circuits": []},
-        {"5. Inductors and transformers": []},
-        {"6. Diodes and diode circuits": []},
-        {"7. Impedance and reactance": []},
-        {"8. Putting it all together - an AM radio": []},
-        {"9. Other passive components": []},
         {
-          "10. A parting shot : confusing markings and itty-bitty components":
-              []
+          "3. Signals": [
+            {"1. Sinusoidal signals": []},
+            {"2. Signal amplitudes and decibels": []},
+            {"3. Other signals": []},
+            {"4. Logic levels": []},
+            {"5. Signal sources": []},
+          ]
+        },
+        {
+          "4. Capacitors and ac circuits": [
+            {"1. Capacitors": []},
+            {"2. *RC* circuits: *V* and *I* verus time": []},
+            {"3. Differentiators": []},
+            {"4. Integrators": []},
+            {"5. No quite perfect...": []},
+          ]
+        },
+        {
+          "5. Inductors and transformers": [
+            {"1. Inductors": []},
+            {"2. Transformers": []},
+          ]
+        },
+        {
+          "6. Diodes and diode circuits": [
+            {"1. Diodes": []},
+            {"2. Rectification": []},
+            {"3. Power-supply filtering": []},
+            {"4. Rectifier configurations for power supplies": []},
+            {"5. Regulators": []},
+            {"6. Circuit applications of diodes": []},
+            {"7. Inductive loads and diode protection": []},
+            {"8. Interlude: inductors as friends": []},
+          ]
+        },
+        {
+          "7. Impedance and reactance": [
+            {"1. Frequency analysis of reactive circuits": []},
+            {"2. Reactance of inductors": []},
+            {"3. Voltages and currents as complex numbers": []},
+            {"4. Reactance of capacitors and inductors": []},
+            {"5. Ohm's law generalized": []},
+            {"6. Power in reactive circuits": []},
+            {"7. Voltage dividers generalized": []},
+            {"8. RC highpass filters": []},
+            {"9. RC lowpass filters": []},
+            {
+              "10. RC differentiators and integrators in the frequency domain":
+                  []
+            },
+            {"11. Inductors versus capacitors": []},
+            {"12. Phasor diagrams": []},
+            {"13. 'Poles' and decibels per octave": []},
+            {"14. Resonant circuits": []},
+            {"15. *LC* filters": []},
+            {"16. Other capacitor applications": []},
+            {"17. Thevenin's theorem generalized": []},
+          ]
+        },
+        {"8. Putting it all together - an AM radio": []},
+        {
+          "9. Other passive components": [
+            {"1. Electromechanical devices: switches": []},
+            {"2. Electromechanical devices: relays": []},
+            {"3. Connectors": []},
+            {"4. Indicators": []},
+            {"5. Variable components": []},
+          ]
+        },
+        {
+          "10. A parting shot : confusing markings and itty-bitty components": [
+            {"1. Surface-mount technology: the joy and the pains": []}
+          ]
         },
       ]
     },
