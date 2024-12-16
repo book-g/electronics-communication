@@ -694,9 +694,224 @@ var the_art_of_the_electronics = {
         {"Review of Chapter 8": []},
       ]
     },
-    {"9. Voltage Regulation and Power Conversion": []},
-    {"10. Digital Logic": []},
-    {"11. Programmable Logic Devices": []},
+    {
+      "9. Voltage Regulation and Power Conversion": [
+        {
+          "1. Tutorial: from zener to series-pass linear regulator": [
+            {"1. Adding feedback": []},
+          ]
+        },
+        {
+          "2. Basic linear regulator circuits with the classic": [
+            {"1. The 723 regulator": []},
+            {"2. In defense of the beleaguered 723": []},
+          ]
+        },
+        {
+          "3. Fully integrated linear regulators": [
+            {"1. Taxonomy of linear regulator ICs": []},
+            {"2. Three-terminal fixed regulators": []},
+            {"3. Three-terminal adjustable regulators": []},
+            {"4. 317-style regulator: application hints": []},
+            {"5. 317-style regulator: circuit examples": []},
+            {"6. Lower-dropout regulators": []},
+            {"7. True low-dropout regulators": []},
+            {"8. Current-reference 3-terminal regulator": []},
+            {"9. Dropout voltages compared": []},
+            {"10. Dual-voltage regulator circuit example": []},
+            {"11. Linear regulator choices": []},
+            {"12. Linear regulator idiosyncrasies": []},
+            {"13. Noise and ripple filtering": []},
+            {"14. Current sources ": []},
+          ]
+        },
+        {
+          "4. Heat and power design": [
+            {"1. Power transistors and heatsinking": []},
+            {"2. Safe operating area": []},
+          ]
+        },
+        {
+          "5. From ac line to unregulated supply": [
+            {"1. ac-line components": []},
+            {"2. Transformer": []},
+            {"3. dc components": []},
+            {"4. Unregulated split supply - on the bench!": []},
+            {"5. Linear versus switcher: ripple and noise": []},
+          ]
+        },
+        {
+          "6. Switching regulators and dc-dc converters": [
+            {"1. Linear versus switching": []},
+            {"2. Switching converter topologies": []},
+            {"3. Inductorless switching converters": []},
+            {
+              "4. Converters with inductors: the basic non-isolated topologies":
+                  []
+            },
+            {"5. Step-down (buck) converter": []},
+            {"6. Step-up (boost) converter": []},
+            {"7. Inverting converter": []},
+            {"8. Comments on the non-isolated converters": []},
+            {"9. Voltage mode and current mode": []},
+            {"10. Converters with transformers: the basic designs": []},
+            {"11. The flyback converter": []},
+            {"12. Forward converters": []},
+            {"13. Bridge converters": []},
+          ]
+        },
+        {
+          "7. Ac-line-powered ('offline') switching converters": [
+            {"1. The ac-to-dc input stage": []},
+            {"2. The dc-to-dc converter": []},
+          ]
+        },
+        {
+          "8. A real-world switcher example": [
+            {"1. Switchers: top-level view": []},
+            {"2. Switchers: basic operation": []},
+            {"3. Switchers: looking more closely": []},
+            {"4. The 'reference design'": []},
+            {
+              "5. Wrapup: general comments on line-powered switching power supplies":
+                  []
+            },
+            {"6. When to use switchers": []},
+          ]
+        },
+        {"9. Inverters and switching amplifiers": []},
+        {
+          "10. Voltage references": [
+            {"1. Zener diode": []},
+            {"2. Bandgap (\$V_{BE}\$) reference": []},
+            {"3. JFET pinch-off (\$V_p\$) reference": []},
+            {"4. Floating-gate reference": []},
+            {"5. Three-terminal precision references": []},
+            {"6. Voltage reference noise": []},
+            {"7. Voltage references: additional Comments": []},
+          ]
+        },
+        {"11. Commercial power-supply modules": []},
+        {
+          "12. Energy storage: batteries and capacitors": [
+            {"1. Battery characteristics": []},
+            {"2. Choosing a battery": []},
+            {"3. Energy storage in capacitors": []},
+          ]
+        },
+        {
+          "13. Additional topics in power regulation": [
+            {"1. Overvoltage crowbars": []},
+            {"2. Extending input-voltage range": []},
+            {"3. Foldback current limiting": []},
+            {"4. Outboard pass transistor": []},
+            {"5. High-voltage regulators": []},
+          ]
+        },
+        {"Review of Chapter 9": []},
+      ]
+    },
+    {
+      "10. Digital Logic": [
+        {
+          "1. Basic logic concepts": [
+            {"1. Digital versus analog": []},
+            {"2. Logic states": []},
+            {"3. Number codes": []},
+            {"4. Gates and truth tables": []},
+            {"5. Discrete  circuits for gates": []},
+            {"6. Gate-logic example": []},
+            {"7. Assertion-level logic notation": []},
+          ]
+        },
+        {
+          "2. Digital integrated circuits: CMOS and Bipoloar (TTL)": [
+            {"1. Catalog of common gates": []},
+            {"2. IC gate circuits": []},
+            {"3. CMOS and bipolar ('TTL') characteristics": []},
+            {"4. Three-state and open-collector devices": []},
+          ]
+        },
+        {
+          "3. Combinational logic": [
+            {"1. Logic identities": []},
+            {"2. Minimization and Karnaugh maps": []},
+            {"3. Combinational functions available as ICs": []},
+          ]
+        },
+        {
+          "4. Sequential logic": [
+            {"1. Devices with memory: flip-flops": []},
+            {"2. Clocked flip-flops": []},
+            {"3. Combining memory and gates: sequential logic": []},
+            {"4. Synchronizer": []},
+            {"5. Monostable multivibrator": []},
+            {"6. Single-pulse generation with flip-flops and counters": []},
+          ]
+        },
+        {
+          "5. Sequential functions available as integrated circuits": [
+            {"1. Latches and registers": []},
+            {"2. Counters": []},
+            {"3. Shift registers": []},
+            {"4. Programmable logic devices": []},
+            {"5. Miscellaneous sequential functions": []},
+          ]
+        },
+        {
+          "6. Some typical digital circuits": [
+            {"1. Modulo-n counter: a timing example": []},
+            {"2. Multiplexed LED digital display": []},
+            {"3. An n-pulse generator": []},
+          ]
+        },
+        {
+          "7. Micropower digital design": [
+            {"1. Keeping CMOS low power": []},
+          ]
+        },
+        {
+          "8. Logic pathology": [
+            {"1. dc problems": []},
+            {"2. Switching problems": []},
+            {"3. Congenital weaknesses of TTL and CMOS": []},
+          ]
+        },
+        {"Additional Exercises for Chapter 10": []},
+        {"Review of Chapter 10": []},
+      ]
+    },
+    {
+      "11. Programmable Logic Devices": [
+        {"1. A brief history": []},
+        {
+          "2. The hardware": [
+            {"1. The basic PAL": []},
+            {"2. The PLA": []},
+            {"3. The FPGA": []},
+            {"4. The configuration memory": []},
+            {"5. Other programmable logic devices": []},
+            {"6. The software": []},
+          ]
+        },
+        {
+          "3. An example: pseudorandom byte generator": [
+            {"1. How to make pseudorandom bytes": []},
+            {"2. Implementation in standard logic": []},
+            {"3. Implementation with programmable logic": []},
+            {"4. Programmable logic - HDL entry": []},
+            {"5. Implementation with microcontroller": []},
+          ]
+        },
+        {
+          "4. Advice": [
+            {"1. By Technologies": []},
+            {"2. By User Communities": []},
+          ]
+        },
+        {"Review of Chapter 11": []},
+      ]
+    },
     {"12. Logic Interfacing": []},
     {"13. Digital meets Analog": []},
     {"14. Computers, Controllers, and Data Links": []},
