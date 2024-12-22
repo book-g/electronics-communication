@@ -912,13 +912,256 @@ var the_art_of_the_electronics = {
         {"Review of Chapter 11": []},
       ]
     },
-    {"12. Logic Interfacing": []},
-    {"13. Digital meets Analog": []},
-    {"14. Computers, Controllers, and Data Links": []},
-    {"15. Microcontrollers": []},
-    {"APPENDIX A: Math Review": []},
-    {"APPENDIX B: How to Draw Schematic Diagrams": []},
-    {"APPENDIX C: Resistor Types": []},
+    {"12. Logic Interfacing": [
+      {
+        "1. CMOS and TTL logic interfacing":[
+          {"1. Logic family chronology - a brief history":[]},
+          {"2. Input and output characteristics":[]},
+          {"3. Interfacing between logic families":[]},
+          {"4. Driving digital logic inputs":[]},
+          {"5. Input protection":[]},
+          {"6. Some comments about logic inputs":[]},
+          {"7. Driving digital logic from comparators or op-amps":[]},
+          
+        ]
+      },
+      {"2. An aside: probing digital signals":[]},
+      {"3. Comparators":[
+        {"1. Outputs":[]},
+          {"2. Inputs":[]},
+          {"3. Other parameters":[]},
+          {"4. Other cautions":[]},
+          
+      ]},
+      {"4. Driving external digital loads from logic levels":[
+        {"1. Positive loads: direct drive":[]},
+        {"2. Positive loads: transistor assisted":[]},
+        {"3. Negative or ac loads":[]},
+        {"4. Protecting power switches":[]},
+        {"5. nMOS LSI interfacing":[]},
+                      
+      ]},
+      {"5. Optoelectronics: emitters":[
+        {"1. Indicators and LEDs":[]},
+          {"2. Laser diodes":[]},
+          {"3. Displays":[]},
+          
+      ]},
+      {"6. Optoelectronics: detectors":[
+        {"1. Photodiodes and phototransistors":[]},
+          {"2. Photomultipliers":[]},
+          
+      ]},
+      {"7. Optocouplers and relays":[
+          {"1. I: Phototransistor output optocouplers":[]},
+          {"2. II: Logic-output optocouplers":[]},
+          {"3. III: Gate driver optocouplers":[]},
+          {"4. IV: Analog-oriented optocouplers":[]},
+          {"5. V: Solid-state relays (transistor output)":[]},
+          {"6. VI: Solid-state relays (triac/SCR output)":[]},
+          {"7. VII: ac-input optocouplers":[]},
+          {"8. Interrupters":[]},
+           
+      ]},
+      {"8. Optoelectronics: fiber-optic digital links":[
+          {"1. TOSLINK":[]},
+          {"2. Versatile Link":[]},
+          {"3. ST/SC glass-fiber modules":[]},
+          {"4. Fully integrated high-speed fiber-transceiver modules":[]},
+      ]},
+      {"9. Digital signals and long wires":[
+        {"1. On-board interconnections":[]},
+        {"2. Intercard connections":[]}      
+      ]},
+      {"10. Driving Cables":[
+        {"1. Coaxial cable":[]},
+        {"2. The right way - I : Far-end termination":[]},
+        {"3. Differential-pair cable":[]},
+        {"4. RS-232":[]},
+        {"5. Wrapup":[]},
+      ]},
+      {"Review of Chapter 12":[]},
+    ]},
+    {"13. Digital meets Analog": [
+      {"1. Some preliminaries":[
+        {"1. The basic performance parameters":[]},
+        {"2. Codes":[]},
+        {"3. Converter errors":[]},
+        {"4. Stand-alone versus integrated":[]},      
+      ]},
+      {"2. Digital-to-analog converters":[
+        {"1. Resistor-string DACs":[]},
+        {"2. R-2R ladder DACs":[]},
+        {"3. Current-steering DACs":[]},
+        {"4. Multiplying DACs":[]},
+        {"5. Generating a voltage output":[]},
+        {"6. Six DACs":[]},
+        {"7. Delta-sigma DACs":[]},
+        {"8. PWM as digital-to-analog converter":[]},
+        {"9. Frequency-to-voltage converters":[]},
+        {"10. Rate multiplier":[]},
+        {"11. Choosing a DAC":[]},                    
+      ]},
+      {"3. Some DAC application examples":[
+        {"1. General-purpose laboratory source":[]},
+        {"2. Eight-channel source":[]},
+        {"3. Nanoamp wide-compliance bipolarity current source":[]},
+        {"4. Precision coil driver":[]},               
+      ]},
+      {"4. Converter linearity - a closer look":[]},
+      {"5. Analog-to-digital converters":[
+        {"1. Digitizing: aliasing, sampling rate, and sampling depth":[]},
+        {"2. ADC Technologies":[]},
+      ]},
+      {"6. ADCs I: Parallel ('flash') encoder":[
+        {"1. Modified flash encoders":[]},
+        {"2. Driving flash, folding, and RF ADCs":[]},
+        {"3. Undersampling flash-converter example":[]},
+      ]},
+      {"7. ADCs II: Successive approximation":[
+        {"1. A simple SAR example":[]},
+        {"2. Variations on successive approximation":[]},
+        {"3. An A/D conversion example":[]},    
+      ]},
+      {"8. ADCs III: integrating":[
+        {"1. Voltage-to-frequency conversion":[]},
+        {"2. Single-slope integration":[]},
+        {"3. Integrating converters":[]},
+        {"4. Dual-slope integration":[]},
+        {"5. Analog switches in conversion applications (a detour)":[]},
+        {"6. Designs by the masters: Agilent's world-class 'multislope' converters":[]},        
+      ]},
+      {"9. ADCs IV: delta-sigma":[
+        {"1. A simple delta-sigma for our suntan monitor":[]},
+        {"2. Demystifying the delta-sigma converter":[]},
+        {"3. ΔΣ ADC and DAC":[]},
+        {"4. The ΔΣ process":[]},
+        {"5. An aside: 'noise shaping'":[]},
+        {"6. The bottom line":[]},
+        {"7. A simulation":[]},
+        {"8. What about DACs?":[]},
+        {"9. Pros and Cons of ΔΣ oversampling converters":[]},
+        {"10. Idle tones":[]},
+        {"11. Some delta-sigma application examples":[]},      
+      ]},
+      {"10. ADCs: choices and tradeoffs":[
+        {"1. Delta-sigma and the competition":[]},
+        {"2. Sampling versus averaging ADCs: noise":[]},
+        {"3. Micropower A/D converters":[]},
+      ]},
+      {"11. Some unusual A/D and D/A converters":[
+        {"1. ADE7753 multifunction ac power metering IC":[]},
+        {"2. AD7873 touchscreen digitizer":[]},
+        {"3. AD7927 ADC with sequencer":[]},
+        {"4. AD7730 precision bridge-measurement subsystem":[]},
+      ]},
+      {"12. Some A/D conversion system examples":[
+        {"1. Multiplexed 16-channel data-acquisition system":[]},
+        {"2. Parallel multichannel successive-approximation data-acquisition system":[]},
+        {"3. Parallel multichannel delta-sigma data-acquisition system":[]}
+      ]},
+      {"13. Phase-locked loops":[
+        {"1. Introduction to phase-locked loops":[]},
+        {"2. PLL components":[]},
+        {"3. PLL design":[]},
+        {"4. Design example: frequency multiplier":[]},
+        {"5. PLL capture and lock":[]},
+        {"6. Some PLL applications":[]},
+        {"7. Wrapup: noise and jitter rejection in PLLs":[]},
+      ]},
+      {"14. Pseudorandom bit sequences and noise generation":[
+        {"1. Digital-noise generation":[]},
+        {"2. Feedback shift register sequences":[]},
+        {"3. Analog noise generation from maximal-length sequences":[]},
+        {"4. Power spectrum of shift-register sequences":[]},
+        {"5. Low-pass filtering":[]},
+        {"6. Wrapup":[]},
+        {"7. 'True' random noise generators":[]},
+        {"8. A 'hybrid digital filter' ":[]},
+      ]},
+      {"Additional Exercises for chapter 13":[]},
+      {"Review of Chapter 13":[]},       
+    ]},
+    {"14. Computers, Controllers, and Data Links": [
+      {"1. Computer architecture: CPU and data bus":[]},
+      {"2. A computer instruction set":[]},
+      {"3. Bus signals and interfacing":[]},
+      {"4. Memory types":[]},
+      {"5. Other buses and data links: overview":[]},
+      {"6. Parallel buses and data links":[]},
+      {"7. Serial buses and data links":[]},
+      {"8. Number formats":[]},
+      {"Review of Chapter 14":[]},
+      
+    ]},
+    {"15. Microcontrollers": [
+      {"1. Introduction":[]},
+      {"2. Design example 1: suntan monitor (V)":[
+        {"1. Implementation with a microcontroller":[]},
+        {"2. Microcontroller code ('firmware')":[]},
+      
+      ]},
+      {"3. Overview of popular microcontroller families":[
+        {"1. On-chip peripherals":[]},
+      ]},
+      {"4. Design example 2: ac power control":[
+        {"1. Microcontroller implementation":[]},
+        {"2. Microcontroller code":[]},
+      ]},
+      {"5. Design example 3: frequency synthesizer":[
+        {"1. Microcontroller code":[]}
+      ]},
+      {"6. Design example 4: thermal controller":[
+        {"1. The hardware":[]},
+        {"2. The control loop":[]},
+        {"3. Microcontroller code":[]},
+      ]},
+      {"7. Design example 5: stabilized mechanical platform":[]},
+      {"8. Peripheral ICs for microcontrollers":[
+        {"1. Peripherals with direct connection":[]},
+        {"2. Peripherals with SPI connection":[]},
+        {"3. Peripherals with I²C connection":[]},
+        {"4. Some important hardware constraints":[]}
+      ]},
+      {"9. Development environment":[
+        {"1. Software":[]},
+        {"2. Real-time programming":[]},
+        {"3. Hardware":[]},
+        {"4. The Arduino Project":[]},
+      ]},
+      {"10. Wrapup":[
+        {"1. How expensive are the tools?":[]},
+        {"2. When to use microcontrollers":[]},
+        {"3. How to select a microcontroller":[]},
+        {"4. A parting shot":[]},
+      ]},
+  
+      {"Review of Chapter 15":[]},
+      
+    ]},
+    {"APPENDIX A: Math Review": [
+      {"1. Trigonometry, exponentials, and logarithms":[]},
+      {"2. Complex numbers":[]},
+      {"3. Differentiation (Calculus)":[
+        {"1. Derivatives of some common functions":[]},
+        {"2. Some rules for combining derivatives":[]},
+        {"3. Some examples of differentiation":[]}
+      ]},
+      
+    ]},
+    {"APPENDIX B: How to Draw Schematic Diagrams": [
+      {"1. General principles":[]},
+      {"2. Rules":[]},
+      {"3. Hints":[]},
+      {"4. A humble example":[]},
+    ]},
+    {"APPENDIX C: Resistor Types": [
+      {"1. Some history":[]},
+      {"2. Available resistance values":[]},
+      {"3. Resistance marking":[]},
+      {"4. Resistor types":[]},
+      {"5. Confusion derby":[]},
+    ]},
     {"APPENDIX D: Thevenin's Theorem": []},
     {"APPENDIX E: LC Butterworth Filters": []},
     {"APPENDIX F: Load Lines": []},
