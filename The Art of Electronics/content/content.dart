@@ -1162,17 +1162,102 @@ var the_art_of_the_electronics = {
       {"4. Resistor types":[]},
       {"5. Confusion derby":[]},
     ]},
-    {"APPENDIX D: Thevenin's Theorem": []},
-    {"APPENDIX E: LC Butterworth Filters": []},
-    {"APPENDIX F: Load Lines": []},
+    {"APPENDIX D: Thevenin's Theorem": [
+      {"1. The proof":[
+        {"1. Two examples - voltage dividers":[]},
+      ]},
+      {"2. Norton's theorem":[]},
+      {"3. Another example":[]},
+      {"4. Millman's theorem":[]}
+    ]},
+    {"APPENDIX E: LC Butterworth Filters": [
+      {"1. Lowpass filter":[]},
+      {"2. Highpass filter":[]},
+      {"3. Filter examples":[]},
+    ]},
+    {"APPENDIX F: Load Lines": [
+      {"1. An example":[]},
+      {"2. Three-terminal devices":[]},
+      {"3. Nonlinear devices":[]},
+    ]},
     {"APPENDIX G: The Curve Tracer": []},
-    {"APPENDIX H: Transmission Lines and Impedance Matching": []},
-    {"APPENDIX I: Television: A Compact Tutorial": []},
-    {"APPENDIX J: SPICE Primer": []},
+    {"APPENDIX H: Transmission Lines and Impedance Matching": [
+      {"1. Some properties of transmission lines":[
+        {"1. Characteristic impedance":[]},
+        {"2. Termination: pulses":[]},
+        {"3. Termination: sinusoidal signals":[]},
+        {"4. Loss in transmission lines":[]},
+      ]},
+      {"2. Impedance matching":[
+        {"1. Resistive (lossy) broadband matching network":[]},
+        {"2. Resistive attenuator":[]},
+        {"3. Transformer (lossless) broadband matching network":[]},
+        {"4. Reactive (lossless) narrowband matching networks":[]},
+      ]},
+      {"3. Lumped-element delay lines and pulse-forming networks":[]},
+      {"4. Epilogue: ladder derivation of characteristic impedance":
+        [ 
+          {"1. First method: terminated line":[]},
+          {"2. Second method: semi-infinite line":[]},
+          {"3. Postscript: lumped-element delay lines":[]},]},
+      
+    ]},
+    {"APPENDIX I: Television: A Compact Tutorial": [
+      {"1. Television: video plus audio":[
+        {"1. The audio":[]},
+        {"2. The video":[]},
+      ]},
+      {"2. Combining and sending the audio + video: modulation":[]},
+      {"3. Recording analog-format broadcast or cable television":[]},
+      {"4. Digital television: what is it?":[]},
+      {"5. Digital television: broadcast and cable delivery":[]},
+      {"6. Direct satellite television":[]},
+      {"7. Digital video streaming over internet":[]},
+      {"8. Digital cable: premium services and conditional access":[
+         {"1. Digital cable: video-on-demand":[]},
+         {"2. Digital cable: switched broadcast":[]},
+      ]},
+      {"9. Recording digital television":[]},
+      {"10. Display technology":[]},
+      {"11. Video connections: analog and digital":[]},
+      
+      
+    ]},
+    
+    {"APPENDIX J: SPICE Primer": [
+      {"1. Setting up ICAP SPICE":[]},
+      {"2. Entering a Diagram":[]},
+      {"3. Running a simulation":[
+         {"1. Schematic entry":[]},
+         {"2. Simulation: frequency sweep":[]},
+         {"3. Simulation: input and output waveforms":[]},
+          ]},
+      {"4. Some final points":[]},
+      {"5. A detailed example: exploring amplifier distortion":[]},
+      {"6. Expanding the parts database":[]},
+      
+    ]},
     {"APPENDIX K: 'Where Do I Go to Buy Electronic Goodies?'": []},
     {"APPENDIX L: Workbench Instruments and Tools": []},
     {"APPENDIX M: Catalogs, Magazines, Databooks": []},
     {"APPENDIX N: Further Reading and References": []},
-    {"APPENDIX O: The Oscilloscope": []}
+    {"APPENDIX O: The Oscilloscope": [
+      {"1. The analog oscilloscope":[
+        {"1. Vertical":[]},
+        {"2. Horizontal":[]},
+        {"3. Triggering":[]},
+        {"4. Hints for beginners":[]},
+        {"5. Probes":[]},
+        {"6. Grounds":[]},
+        {"7. The digital oscilloscope":[]},          
+      ]},
+      {"2. The digital oscilloscope":[
+        {"1. What's different?":[]},
+        {"2. Some cautions":[]},
+      ]},
+            
+    ]},
+    {"APPENDIX P: Acronyms and Abbreviations": []},
+    {"Index":[]}
   ],
 };
